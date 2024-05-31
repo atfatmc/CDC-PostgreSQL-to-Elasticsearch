@@ -15,7 +15,7 @@
     "database.server.name": "cdc1",
     "database.whitelist": "cdc_db",
     "database.history.kafka.bootstrap.servers": "broker:29092",
-    "database.history.kafka.topic": "schema-changes.test_db",
+    "database.history.kafka.topic": "schema-changes.cdc_db",
     "transforms": "route",
     "transforms.route.type": "org.apache.kafka.connect.transforms.RegexRouter",
     "transforms.route.regex": "([^.]+)\\.([^.]+)\\.([^.]+)",
